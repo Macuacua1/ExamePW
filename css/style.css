@@ -1,0 +1,131 @@
+html{
+    font:11px Arial, Helvetica, sans-serif;
+    color:#333;}
+
+#main{
+    margin:0 auto;
+    width:800px;
+    background-color: Transparent;
+    border: 1px solid gray;
+    padding:10px;
+}
+#header{
+    height:200px;
+}
+
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: black;
+}
+
+#resultTable th.sortable {
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    color: #4F6B72;
+    font: normal 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding: 3px 3px 3px 6px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#resultTable th.sortable:hover {
+    color: black;
+}
+
+#resultTable th {
+    background-color: darkgrey;
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    color: whitesmoke;
+    font: normal 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding: 3px 3px 3px 6px;
+    text-align: left;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#resultTable th:hover {
+    color: black;
+}
+
+#resultTable th.sorted-asc, th.sorted-desc {
+    color: black;
+    color: black;
+}
+
+#resultTable td {
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    padding: 3px 3px 3px 6px;
+    font: normal 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+#resultTable td.hovered {
+    background-color: lightblue;
+    color: #666;
+}
+
+
+#addq {
+    background-color: lightgrey;
+    color:#000000;
+    left: 650px;
+    padding:3px;
+    position:relative;
+    text-decoration:none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.ed{
+    border-style:solid;
+    border-width:thin;
+    border-color:#00CCFF;
+    padding:5px;
+    margin-bottom: 4px;
+}
+#button1{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:royalblue;
+    padding:5px;
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 10px;
+    float: right;
+    color: white;
+}
+
+#preview img{
+    border: solid #cdcdcd 1px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .2);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    width:100px;
+    height:90px;
+    margin-left:auto;
+    margin-right:auto;
+    align-self: center;
+}
+
+#err{
+    color: red;
+}
+
+.logout{
+    float: right;
+}
